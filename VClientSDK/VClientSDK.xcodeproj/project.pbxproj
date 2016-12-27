@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE020DD31DBDB2D4003A3403 /* VClientSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = FE020DD21DBDB2D4003A3403 /* VClientSDK.m */; };
+		FE020DD41DBDB2D4003A3403 /* VClientSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE020DD11DBDB2D4003A3403 /* VClientSDK.h */; };
+		FE020DDC1DBDB435003A3403 /* VClientSDK+VClientAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE020DDB1DBDB435003A3403 /* VClientSDK+VClientAPI.m */; };
+		FE6CBFF61DBDFB6B0098E297 /* VCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBFF51DBDFB6B0098E297 /* VCMessage.m */; };
+		FE6CC0051DBF3D370098E297 /* VCConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CC0041DBF3D370098E297 /* VCConversation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE020DCC1DBDB2D4003A3403 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FE020DD41DBDB2D4003A3403 /* VClientSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE020DCE1DBDB2D4003A3403 /* libVClientSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVClientSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE020DD11DBDB2D4003A3403 /* VClientSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VClientSDK.h; sourceTree = "<group>"; };
+		FE020DD21DBDB2D4003A3403 /* VClientSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VClientSDK.m; sourceTree = "<group>"; };
+		FE020DDA1DBDB435003A3403 /* VClientSDK+VClientAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VClientSDK+VClientAPI.h"; sourceTree = "<group>"; };
+		FE020DDB1DBDB435003A3403 /* VClientSDK+VClientAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VClientSDK+VClientAPI.m"; sourceTree = "<group>"; };
+		FE020DE11DBDCDEF003A3403 /* VClientDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VClientDefs.h; sourceTree = "<group>"; };
+		FE6CBFF41DBDFB6B0098E297 /* VCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMessage.h; sourceTree = "<group>"; };
+		FE6CBFF51DBDFB6B0098E297 /* VCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMessage.m; sourceTree = "<group>"; };
+		FE6CBFFC1DBF35290098E297 /* VidyoClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoClient.h; sourceTree = "<group>"; };
+		FE6CBFFD1DBF35290098E297 /* VidyoClientConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoClientConstants.h; sourceTree = "<group>"; };
+		FE6CBFFE1DBF35290098E297 /* VidyoClientMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoClientMessages.h; sourceTree = "<group>"; };
+		FE6CBFFF1DBF35290098E297 /* VidyoClientParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoClientParameters.h; sourceTree = "<group>"; };
+		FE6CC0001DBF35290098E297 /* VidyoTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VidyoTypes.h; sourceTree = "<group>"; };
+		FE6CC0021DBF35290098E297 /* VidyoClientLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = VidyoClientLib.a; sourceTree = "<group>"; };
+		FE6CC0031DBF3D370098E297 /* VCConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCConversation.h; sourceTree = "<group>"; };
+		FE6CC0041DBF3D370098E297 /* VCConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCConversation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE020DCB1DBDB2D4003A3403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE020DC51DBDB2D4003A3403 = {
+			isa = PBXGroup;
+			children = (
+				FE020DD01DBDB2D4003A3403 /* VClientSDK */,
+				FE020DCF1DBDB2D4003A3403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE020DCF1DBDB2D4003A3403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE020DCE1DBDB2D4003A3403 /* libVClientSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE020DD01DBDB2D4003A3403 /* VClientSDK */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CBFFA1DBF35290098E297 /* vidyoClient */,
+				FE020DD11DBDB2D4003A3403 /* VClientSDK.h */,
+				FE020DD21DBDB2D4003A3403 /* VClientSDK.m */,
+				FE020DDA1DBDB435003A3403 /* VClientSDK+VClientAPI.h */,
+				FE020DDB1DBDB435003A3403 /* VClientSDK+VClientAPI.m */,
+				FE020DE11DBDCDEF003A3403 /* VClientDefs.h */,
+				FE6CBFF41DBDFB6B0098E297 /* VCMessage.h */,
+				FE6CBFF51DBDFB6B0098E297 /* VCMessage.m */,
+				FE6CC0031DBF3D370098E297 /* VCConversation.h */,
+				FE6CC0041DBF3D370098E297 /* VCConversation.m */,
+			);
+			path = VClientSDK;
+			sourceTree = "<group>";
+		};
+		FE6CBFFA1DBF35290098E297 /* vidyoClient */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CBFFB1DBF35290098E297 /* include */,
+				FE6CC0011DBF35290098E297 /* lib */,
+			);
+			path = vidyoClient;
+			sourceTree = "<group>";
+		};
+		FE6CBFFB1DBF35290098E297 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CBFFC1DBF35290098E297 /* VidyoClient.h */,
+				FE6CBFFD1DBF35290098E297 /* VidyoClientConstants.h */,
+				FE6CBFFE1DBF35290098E297 /* VidyoClientMessages.h */,
+				FE6CBFFF1DBF35290098E297 /* VidyoClientParameters.h */,
+				FE6CC0001DBF35290098E297 /* VidyoTypes.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FE6CC0011DBF35290098E297 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CC0021DBF35290098E297 /* VidyoClientLib.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE020DCD1DBDB2D4003A3403 /* VClientSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE020DD71DBDB2D4003A3403 /* Build configuration list for PBXNativeTarget "VClientSDK" */;
+			buildPhases = (
+				FE020DCA1DBDB2D4003A3403 /* Sources */,
+				FE020DCB1DBDB2D4003A3403 /* Frameworks */,
+				FE020DCC1DBDB2D4003A3403 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VClientSDK;
+			productName = VClientSDK;
+			productReference = FE020DCE1DBDB2D4003A3403 /* libVClientSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE020DC61DBDB2D4003A3403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "天玑科技";
+				TargetAttributes = {
+					FE020DCD1DBDB2D4003A3403 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J3D45K6XED;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE020DC91DBDB2D4003A3403 /* Build configuration list for PBXProject "VClientSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE020DC51DBDB2D4003A3403;
+			productRefGroup = FE020DCF1DBDB2D4003A3403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE020DCD1DBDB2D4003A3403 /* VClientSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE020DCA1DBDB2D4003A3403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE020DD31DBDB2D4003A3403 /* VClientSDK.m in Sources */,
+				FE020DDC1DBDB435003A3403 /* VClientSDK+VClientAPI.m in Sources */,
+				FE6CBFF61DBDFB6B0098E297 /* VCMessage.m in Sources */,
+				FE6CC0051DBF3D370098E297 /* VCConversation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE020DD51DBDB2D4003A3403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE020DD61DBDB2D4003A3403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE020DD81DBDB2D4003A3403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J3D45K6XED;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE020DD91DBDB2D4003A3403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J3D45K6XED;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE020DC91DBDB2D4003A3403 /* Build configuration list for PBXProject "VClientSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE020DD51DBDB2D4003A3403 /* Debug */,
+				FE020DD61DBDB2D4003A3403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE020DD71DBDB2D4003A3403 /* Build configuration list for PBXNativeTarget "VClientSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE020DD81DBDB2D4003A3403 /* Debug */,
+				FE020DD91DBDB2D4003A3403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE020DC61DBDB2D4003A3403 /* Project object */;
+}
